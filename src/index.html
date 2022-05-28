@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html',{
+    "title":"Главная"
+})
+<body>
+   <!-- 5 video  23:00-->
+   
+
+
+    <div class="page">
+<!-- header -->
+        @@include('html/header.html',{})
+
+
+<!-- sidebar -->
+        @@include('html/sidebar.html',{})
+    
+
+<!-- main -->
+    <main class="main">
+       
+      <div class="container"> 
+          
+          @@include('html/body.html',{})
+        
+        </div>
+    </main>
+
+
+
+    @@include('html/footer.html',{})
+
+
+
+    </div>
+    <!-- JS -->
+    <script src="js/app.min.js"></script>
+</body>
+</html>
+
+<!-- можно удалить папку html стереть, то что сверху и использовать этот шаблон 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+    <script src="js/app.min.js"></script>
+</body>
+</html> -->
